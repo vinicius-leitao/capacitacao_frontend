@@ -4,64 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha homepage - Capacitação</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 
-    <nav class="nav-container">
-        <ul class="nav-ul">
-            
-            <a href="/"><img src="../images/logo.png" alt="Logotipo da marca com link para homepage"></a>
-
-            <a href="#"><li>Home</li></a>
-            <a href="#"><li>About us</li></a>
-            <a href="#"><li>Services</li></a>
-            <a href="#"><li>Blog</li></a>
-            <a href="#"><li>Contact us</li></a>
-            <a href="#"><li id="nav-ul-login">Login</li></a>
-
-        </ul>
-    </nav>
+   
     <header class="header-container">
-    <section class="section-container">
-        <h2 class="section-h2">Por que aprender a programar</h2>
-        <p class="section-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet cum impedit corporis. Sint, ducimus eligendi. Corrupti voluptatem vel, error adipisci similique, cum, iure accusantium dolor praesentium deserunt placeat nisi ipsum!</p>
-
-        <div class="section-card">
-            <img src="#" alt="#">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div class="section-card">
-            <img src="#" alt="#">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div class="section-card">
-            <img src="#" alt="#">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-        
-    </section>
+        <nav class="nav-container">
+            <img src="../images/logo.png" alt="Logotipo da marca com link para homepage" id="ul-img">
+            <ul class="nav-ul">
     
-    <div class="header-h1-container">
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>About us</li></a>
+                <a href="#"><li>Services</li></a>
+                <a href="#"><li>Blog</li></a>
+                <a href="#"><li>Contact us</li></a>
+                <a href="#"><li id="nav-ul-login">Login</li></a>
+    
+            </ul>
+        </nav>
+        <div class="header-h1-container">
 
-        <h1 class="header-h1">
-            Bem vindo a sua capacitação de Front-end! Preparado para se tornar um ótimo profissional? Então vamos lá!
-        </h1>
+            <h1 class="header-h1">
+                Bem vindo a sua capacitação de Front-end! Preparado para se tornar um ótimo profissional?
+            </h1>
 
-        <p class="header-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur veritatis, id impedit commodi quos doloremque dolor! Saepe quaerat nostrum impedit earum, dolorum asperiores veniam nemo quibusdam doloribus repudiandae nulla aliquid?</p>
+            <p class="header-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur veritatis, id impedit commodi quos doloremque dolor!</p>
 
-        <div class="header-links-container">
-            <a href="#">Estude agora</a>
-            <a href="#">Acompanhe seu progresso</a>
+            <div class="header-links-container">
+                <a href="#" id="study">Estude agora</a>
+                <a href="#" id="see">Seu progresso</a>
+            </div>
         </div>
-    </div>
 
-    <div class="header-image-container">
-        <img src="../images/dev.svg" alt="developer programming">
-    </div>
+        <div class="header-image-container">
+        </div>
 
     </header>
+
+    <section class="section-container">
+        <div class="section-content">
+            <div class="section-text">
+                <h2 class="section-h2">Por que aprender a programar</h2>
+                <p class="section-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet cum impedit corporis. Sint, ducimus eligendi.</p>
+                <a href="#"><span id="span-js"><img src="../images/proximo.svg" alt="Go to development"></span></a>
+            </div>
+            <div class="section-cards">
+                <div class="card">
+                    <img src="../images/Code typing-pana.svg" alt="#">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="card">
+                    <img src="../images/Programming-amico.svg" alt="#">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="card">
+                    <img src="../images/Programming-pana.svg" alt="#">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer class="footer-container">
 
     </footer>
 </body>
+
+<script src="../scripts/animation.js"></script>
+
 </html>
