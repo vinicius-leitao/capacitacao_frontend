@@ -28,7 +28,7 @@ body{
     width: 90%;
     margin: 2em auto;
     background-color: #D5D9FE;
-    background-image: url(./dots.png);
+    background-image: url(dots.png);
     background-position: top left;
     background-repeat: no-repeat;
 }
@@ -99,7 +99,7 @@ body{
 }
 
 .header-image-container{
-   background-image: url(./dev.svg);
+   background-image: url(dev.svg);
    background-repeat: no-repeat;
    background-size: contain;
    background-position: top;
